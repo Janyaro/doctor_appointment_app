@@ -11,6 +11,7 @@ class PrecriptionScreen extends StatefulWidget {
 }
 
 class _PrecriptionScreenState extends State<PrecriptionScreen> {
+  final doctor_data = DoctorData();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,9 +22,9 @@ class _PrecriptionScreenState extends State<PrecriptionScreen> {
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 10.w),
         child: ListView.builder(
-            itemCount: DoctorData().doctors.length,
+            itemCount: doctor_data.doctors.length,
             itemBuilder: (context , index){
-            return DoctorCard(data: DoctorData().doctors[index]);
+            return DoctorCard(data: doctor_data.doctors[index]);
           }),
       ),
     );

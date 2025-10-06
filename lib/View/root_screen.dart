@@ -16,8 +16,8 @@ class _RootScreenState extends State<RootScreen> {
 
   final List<Widget> screens = [
     HomeScreen(),
-    UserScreen(),
     PrecriptionScreen(),
+    UserScreen(),
   ];
 
   @override

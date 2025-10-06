@@ -1,4 +1,4 @@
- class DoctorData {
+ class DoctorData  {
 
 List<Map<String, dynamic>> doctors = [
   {
@@ -57,20 +57,7 @@ List<Map<String, dynamic>> doctors = [
     'address': '321 Ortho Center, Sports Med Plaza, Los Angeles, CA 90001',
     'image': 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
   },
-  {
-    'name': 'Dr. Priya Sharma',
-    'specialist': 'Dermatologist',
-    'about': 'Skin care specialist focusing on acne treatment, skin cancer screening, and cosmetic dermatology. Research published in international journals.',
-    'year_of_experience': 10,
-    'comment': [
-      {'user': 'Client1', 'rating': 4.8, 'comment': 'Cleared my acne completely. Very satisfied!'},
-      {'user': 'Client2', 'rating': 4.9, 'comment': 'Professional and gives realistic expectations.'},
-      {'user': 'Client3', 'rating': 4.7, 'comment': 'Great bedside manner and effective treatments.'}
-    ],
-    'phone_number': '+1-555-0105',
-    'address': '654 Skin Care Center, Beauty Street, Miami, FL 33101',
-    'image': 'https://images.unsplash.com/photo-1594824947933-d0501ba2fe65?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
-  },
+
   {
     'name': 'Dr. Robert Brown',
     'specialist': 'Psychiatrist',
