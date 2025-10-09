@@ -7,6 +7,14 @@ class DoctorService {
   DoctorService._internal();
   
   List<Map<String, dynamic>> appointedDoctors = [];
+  List<String> perscription = [];
+
+  void addPerscription (BuildContext context , String data){
+    perscription.add(data);
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('Perscription add successfully'))
+    );
+  }
   
   void addAppointmentDoctor(BuildContext context, Map<String, dynamic> data) {
     appointedDoctors.add(Map.from(data));

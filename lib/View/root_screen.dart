@@ -1,6 +1,5 @@
 import 'package:doctor_app/View/home_screen.dart';
 import 'package:doctor_app/View/precription_screen.dart';
-import 'package:doctor_app/View/record_screen.dart';
 import 'package:doctor_app/View/user_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -42,7 +41,7 @@ class _RootScreenState extends State<RootScreen> {
           
           BottomNavigationBarItem(
             icon: Icon(Icons.medical_services),
-            label: 'Prescription',
+            label: 'Doctor',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
