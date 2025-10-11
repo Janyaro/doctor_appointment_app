@@ -22,6 +22,7 @@ class _RootScreenState extends State<RootScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       body: screens[currentScreen],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: currentScreen, // highlight selected item

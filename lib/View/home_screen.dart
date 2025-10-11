@@ -15,24 +15,17 @@ class _HomeScreenState extends State<HomeScreen> {
 
    final List<Widget> _screens = [
     BookOppiontmentScreen(),
-    RefillOppointmentScreen(),
+    RefillAppointmentScreen()
   ];
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
       
       appBar: AppBar(
-      leading: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: CircleAvatar(),
-        ),
-    
+        automaticallyImplyLeading: false,
         title: Text('MyHealth'),
         centerTitle: true,
-        
-        actions: [
-          IconButton(onPressed: (){}, icon: Icon(Icons.settings))
-        ],
+
       ),
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 10.w),

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "281081976374",
+    "firebase_url": "https://noteapp-2d725-default-rtdb.firebaseio.com",
+    "project_id": "noteapp-2d725",
+    "storage_bucket": "noteapp-2d725.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281081976374:android:8f0acc09fd12d85be66a97",
+        "android_client_info": {
+          "package_name": "com.example.doctor_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_J1z_eew7nfVBk_BAM-w9rwTcsNi0Xf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281081976374:android:3c2fd1bbf38248d6e66a97",
+        "android_client_info": {
+          "package_name": "com.example.note_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_J1z_eew7nfVBk_BAM-w9rwTcsNi0Xf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281081976374:android:871b8dc4b70c8e99e66a97",
+        "android_client_info": {
+          "package_name": "com.example.task_management_app_task_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_J1z_eew7nfVBk_BAM-w9rwTcsNi0Xf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

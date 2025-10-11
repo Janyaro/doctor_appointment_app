@@ -57,10 +57,9 @@ final doctorService = DoctorService();
         ),
       ),
            floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          setState(() {}); // Force refresh
+        onPressed: () { 
         },
-        child: Icon(Icons.refresh),
+        child: Icon(Icons.add),
       ),
     
     );

@@ -16,6 +16,7 @@ class _PrecriptionScreenState extends State<PrecriptionScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: Text('Book Oppointment'),
         centerTitle: true,
       ),

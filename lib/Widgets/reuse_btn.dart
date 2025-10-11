@@ -18,7 +18,7 @@ class ReuseBtn extends StatelessWidget {
                   color: Colors.blue
                 ),
                 child: Center(
-                  child:isVisibility ? CircularProgressIndicator() :  Text(btnTitle, style: TextStyle(fontSize: 20 , fontWeight: FontWeight.w500 , color: Colors.white),),
+                  child:isVisibility ? CircularProgressIndicator(color: Colors.white , strokeWidth: 3,) :  Text(btnTitle, style: TextStyle(fontSize: 20 , fontWeight: FontWeight.w500 , color: Colors.white),),
                 ),
               ),
     );

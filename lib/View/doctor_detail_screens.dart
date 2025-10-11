@@ -79,7 +79,7 @@ class _DoctorDetailScreensState extends State<DoctorDetailScreens> {
                 ),
                 contactCard(Icons.call, 'Phone', widget.data['phone_number'].toString()),
                 SizedBox(height: 6.h,),
-                contactCard(Icons.location_on_outlined, 'Address', widget.data['phone_number'].toString()),
+                contactCard(Icons.location_on_outlined, 'Address', widget.data['address'].toString()),
                 SizedBox(height: 6.h,),
                 ReuseBtn(btnTitle: 'Book Appointment', ontap: (){
                   doctorService.addAppointmentDoctor(context,widget.data);
